@@ -10,7 +10,7 @@ ObjectiveSocketIO is a library that provides an easy way to use Socket.IO with O
   s.homepage         = 'https://github.com/serhii-petrenko-dev/ObjectiveSocketIO'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Serhii Petrenko' => 'serhii.petrenko.dev@gmail.com' }
-  s.source           = { :git => 'https://github.com/serhii-petrenko-dev/ObjectiveSocketIO.git', :branch = "master" }
+  s.source           = { :git => 'https://github.com/serhii-petrenko-dev/ObjectiveSocketIO.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '17.5'
